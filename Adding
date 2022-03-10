@@ -1,0 +1,4 @@
+number1 = 2.9
+number2 = 3.6
+summary = number1 + number2
+print('The sum of {0} and {1} is {2}'.format(number1, number2, summary))
