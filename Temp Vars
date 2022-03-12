@@ -1,0 +1,17 @@
+#swappin variables
+
+Q = 5
+R = 10
+
+# taking inputs
+#Q = input('Enter value of Q: ')
+#R = input('Enter value of R: ')
+
+# creatin temp vars
+temp = Q
+Q = R
+R = temp
+
+
+print('The value of Q after swapping: {}'.format(Q))
+print('The value of R after swapping: {}'.format(R))
