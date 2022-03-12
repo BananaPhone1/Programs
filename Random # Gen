@@ -1,0 +1,4 @@
+#we have to import the random module it will allow us to produce a number from 0 to 9 randomly
+import random
+
+print(random.randint(0,9))
